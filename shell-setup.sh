@@ -1,0 +1,6 @@
+alias g='git'
+alias gs='git status'
+alias ga='git add -A'
+alias gc='git commit'
+alias gpl='git pull'
+alias gpsh='git push -u origin `git rev-parse --abbrev-ref HEAD`'
