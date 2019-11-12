@@ -11,3 +11,6 @@ alias gco='git checkout'
 alias gb='git branch'
 alias rn='git log --pretty="- %s (%an)" $0'
 alias gm='git merge'
+alias npm-start='npm start -- --https --key=../../localhost-ssl/key.pem --cert=../../localhost-ssl/cert.pem'
+export PATH="/Users/joeldennning/Library/Python/3.7/bin:$PATH"
+source ./custom.sh
