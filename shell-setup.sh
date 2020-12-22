@@ -13,3 +13,5 @@ alias rn='git log --pretty="- %s (%an)" $0'
 alias gm='git merge'
 alias npm-start='npm start -- --https --key=../../localhost-ssl/key.pem --cert=../../localhost-ssl/cert.pem'
 alias yarn-start='yarn start --https --key=../../localhost-ssl/key.pem --cert=../../localhost-ssl/cert.pem'
+export NARN_DEFAULT_PM='pnpm'
+source ~/code/shell-setup/custom.sh
