@@ -7,7 +7,7 @@ Joel's favorite aliases and other shell stuff
 2. Add the following to `~/.config/fish/config.fish`
 
 ```sh
-source ~/.code/shell-setup/shell-setup.sh
+source ~/code/shell-setup/shell-setup.sh
 ```
 3. Create `custom.sh` in `~/code/shell-setup/custom.sh`. It can be blank.
 4. Live long and prosper
